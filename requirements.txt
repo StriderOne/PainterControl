@@ -1,0 +1,9 @@
+opencv-python 
+cython 
+pandas 
+scipy 
+ur-rtde 
+spatialmath-python 
+urdf-parser-py 
+opencv-contrib-python>=4.8 
+pytransform3d 

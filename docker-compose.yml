@@ -1,0 +1,22 @@
+version: '3.9'
+name: 'painter'
+
+services:
+  control:
+    image: simonovra/robot-painter
+    container_name: painter-control
+    # command: ["/bin/bash", "-ci"]
+    build:
+      context: .
+    ipc: host
+    stdin_open: true
+    tty: true
+    network_mode: host
+    privileged: true
+    volumes:
+      - .:/workspace/painter_reborn
+      - /dev:/dev
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    environment:
+      - PYTHONPATH=:/usr/lib/python3/dist-packages/:/librealsense/build/release
+      - DISPLAY=$DISPLAY

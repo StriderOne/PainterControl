@@ -1,0 +1,14 @@
+{
+    "save_pictures": false,
+    "verbose": false,
+    "serial": "832112070940",
+    "color_w": 960,
+    "color_h": 540,
+    "depth_w": 1280,
+    "depth_h": 720,
+    "align_to_color": true,
+    "fps": 30,
+    "RS2_OPTION_EXPOSURE": 8658,
+    "RS2_OPTION_GAIN": 16,
+    "RS2_OPTION_LASER_POWER": 200
+}
