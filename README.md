@@ -8,9 +8,9 @@ To run into docker
     ```
 2. Build docker
     ```sh
-    docker compose build
+        docker compose build
     ```
 3. Run into docker bash
     ```sh
-    docker compose run control bash
+        docker compose run control bash
     ```
